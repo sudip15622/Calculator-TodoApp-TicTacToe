@@ -4,7 +4,7 @@ A modern React application featuring three classic interactive tools: Calculator
 
 ## 🚀 Live Demo
 
-Visit the live application: [Calculator-TodoApp-TicTacToe](https://your-deployment-url.com)
+Visit the live application: [Calculator-TodoApp-TicTacToe](https://storied-kataifi-adb8f3.netlify.app/)
 
 ## ✨ Features
 
