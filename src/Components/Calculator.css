@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container{
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+    height: 400px;
+    background-color: rgb(44, 43, 42);
+    margin: 30px auto;
+    border-radius: 20px;
+  }
+  .showexpression{
+    background-color: rgb(14, 174, 139);
+    border-radius: 10px;
+    height: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 0px 5px;
+    overflow: hidden;
+  }
+  .numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  .numbers div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .numbers input{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(45, 44, 57);
+    color: rgb(213, 212, 212);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .numbers input:hover{
+    font-size: 24px;
+  }
+  .numbers div .big-equal{
+    width: 210px;
+    background-color: rgb(61, 52, 99);
+  }
+  
+  .numbers div .delac{
+    background-color: rgb(88, 50, 62);
+  }
+  
+  @media screen and (max-width: 520px){
+    .container{
+      width: 300px;
+      height: 350px;
+    }
+    .numbers input{
+      height: 40px;
+    }
+  }
+  @media screen and (max-width: 360px){
+    .container{
+      padding: 15px;
+      gap: 10px;
+      width: 240px;
+      height: 290px;
+    }
+    .numbers{
+      padding: 8px;
+    }
+    .numbers input{
+      height: 35px;
+      font-size: 15px;
+    }
+    .numbers input:hover{
+      font-size: 18px;
+    }
+  }

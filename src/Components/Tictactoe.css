@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.ticcontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 440px;
+    padding: 20px 0px;
+    background-color: rgb(139, 133, 127);
+    border-radius: 20px;
+    margin: 30px auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0px;
+    border-radius: 20px;
+    height: 40px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(81, 72, 60);
+    color: rgb(224, 222, 222);
+    width: 80%;
+}
+
+.gametable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(77, 66, 54);
+    border-radius: 10px;
+    gap: 5px;
+    height: 350px;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.box {
+    background-color: rgb(129, 114, 93);
+    height: 100px;
+    width: 100px;
+    font-size: 60px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(224, 222, 222);
+}
+
+.ticbtn {
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(69, 58, 45);
+    color: rgb(224, 222, 222);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.timetravel {
+    min-height: 40px;
+    width: 80%;
+    background-color: rgb(104, 93, 77);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 0px;
+    gap: 10px;
+
+}
+
+.emptymove {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(224, 222, 222);
+}
+
+.step {
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(88, 78, 59);
+    border-radius: 5px;
+    width: 90%;
+    color: rgb(224, 222, 222);
+    padding: 10px 0px;
+}
+
+@media screen and (max-width: 500px) {
+    .ticcontainer {
+        width: 90vw;
+    }
+
+    .box {
+        width: 90px;
+        height: 90px;
+    }
+    .emptymove {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .box {
+        width: 80px;
+        height: 80px;
+        font-size: 50px;
+    }
+
+    .gametable {
+        height: 310px;
+        width: 90%;
+    }
+
+    .step {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .step {
+        font-size: 1rem;
+    }
+
+    .box {
+        width: 65px;
+        height: 65px;
+    }
+
+    .gametable {
+        height: 250px;
+    }
+}
